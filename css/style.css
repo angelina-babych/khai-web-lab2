@@ -1,0 +1,261 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 13px 0;
+}
+
+table {
+    /* border-collapse: collapse; */
+    /* border-spacing: 0; */
+    width: 100%;
+}
+
+td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 5px;
+    /* line-height: 90%; */
+}
+
+th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 5px;
+    /* line-height: 10%; */
+}
+
+.generic {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tabnav {
+    width: 300px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "bNav bContent bContent"
+        "bFooter bFooter bFooter";
+    /* align-items: center; */
+}
+
+/* === task1 === */
+.bcontent {
+    grid-area: bContent;
+    background-color: burlywood;
+}
+
+.bnav {
+    grid-area: bNav;
+    background-color: aquamarine;
+}
+
+.bfooter {
+    grid-area: bFooter;
+    background-color: indianred;
+}
+
+ol .toc {
+    counter-reset: item;
+    line-height: 220%;
+}
+
+.toc li {
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+h3 {
+    color: green;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navs {
+    border-radius: 1em;
+    padding: 0.2em 0.6em 0.2em;
+}
+
+.main {
+
+    background-color: lightgoldenrodyellow;
+}
+
+.sub {
+    text-decoration: underline;
+    background-color: lightblue;
+}
+
+.subsub {
+    background-color: lightseagreen;
+}
+
+.gridtext {
+    margin-bottom: 55px;
+}
+
+/* === task2 === */
+.toccell {
+    background-color: azure;
+}
+
+.contentcell {
+    background-color: lightcyan
+}
+
+.footcell {
+    background-color: honeydew;
+}
+
+.wikilogo {
+    float: right;
+    padding-top: 1.8em;
+    padding-left: 1.5em;
+    padding-right: 0.3em;
+}
+
+.defs {
+    text-align: justify;
+    margin-left: 10%;
+}
+
+.oculus {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1.5em;
+}
+
+.haptics {
+    float: right;
+    padding-left: 1.5em;
+    padding-left: 1.5em;
+}
+
+.virt {
+    float: left;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-right: 1.5em;
+}
+
+.morevr {
+    float: left;
+    width: 20%;
+    margin-left: 2em;
+    text-align: right;
+}
+
+.wikitext {
+    text-align: center;
+}
+
+.meetvideo {
+    float: right;
+}
+
+.colab {
+    display: block;
+    margin-top: 45%;
+}
+
+/* === task3 === */
+.table3 {
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    border-spacing: 1em;
+    border-collapse: separate;
+}
+
+.table3 td {
+    border-style: none;
+    height: 7em;
+}
+
+.table3 th {
+    border-style: none;
+    height: 7em;
+}
+
+.tcaps {
+    caption-side: top;
+    text-align: center;
+}
+
+.cell1 {
+    background-color: lightgreen;
+}
+
+.cell2 {
+    background-color: lightblue;
+}
+
+.cell3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.cell4 {
+    background-color: lightsalmon;
+}
+
+.cell11 {
+    background-color: yellow;
+}
+
+.cell21 {
+    background-color: coral;
+}
+
+.cell31 {
+    background-color: cornflowerblue;
+}
+
+.cell22 {
+    background-color: violet;
+}
+
+.cell32 {
+    background-color: chocolate;
+}
+
+.cell42 {
+    background-color: lightseagreen;
+}
+
+.cell23 {
+    background-color: aquamarine;
+}
+
+.cell43 {
+    background-color: blueviolet;
+    background-image: url(images/cell-bg.jpg);
+    background-size: 90%;
+}
+
+.text43 {
+    color: white;
+}
+
+.footcred {
+    text-decoration: line-through;
+}
